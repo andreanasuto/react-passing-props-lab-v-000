@@ -10,6 +10,7 @@ class App extends React.Component {
   this.state = {
       filters: [],
       fruit: []
+      currentFilter: null
     }
   }
 
