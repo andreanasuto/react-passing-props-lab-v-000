@@ -24,6 +24,11 @@ class App extends React.Component {
         .then(filters => this.setState({ filters }));
   }
 
+  fetchFruit = () => {
+    fetch('/api/fruit')
+      .then(response => response.json())
+      .then(items => this.setState({ fruits }));
+  }
 
 
   render() {
