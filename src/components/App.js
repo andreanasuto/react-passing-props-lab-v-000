@@ -9,6 +9,7 @@ class App extends React.Component {
   super(props)
   this.state = {
     filters: ''
+    fruits: []
   }
   }
 
@@ -20,6 +21,12 @@ class App extends React.Component {
       fetch('/api/fruit_types')
         .then(response => response.json())
         .then(filters => this.setState({ filters }));
+  }
+
+  fetchFruit = () => {
+    fetch('/api/fruit')
+      .then(response => response.json())
+      .then(items => this.setState({ items }));
   }
 
 
