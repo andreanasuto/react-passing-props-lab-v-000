@@ -16,7 +16,7 @@ class App extends React.Component {
 
   componentDidMount() {
     this.fetchFilters()
-    this.fetchFruitù
+    this.fetchFruit()
   }
 
   fetchFilters = () => {
