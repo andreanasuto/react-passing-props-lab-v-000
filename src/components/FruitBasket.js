@@ -39,4 +39,9 @@ const FruitBasket = function(props) {
   )
 }
 
+FruitBasket.defaultProps = {
+  fruit: '',
+  
+}
+
 export default FruitBasket;
