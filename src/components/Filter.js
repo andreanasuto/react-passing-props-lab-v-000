@@ -42,4 +42,9 @@ const Filter = function(props) {
   )
 }
 
+Filter.defaultProps = {
+  filters: [],
+  handleChange: ''
+}
+
 export default Filter;
