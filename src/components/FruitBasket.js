@@ -42,7 +42,7 @@ const FruitBasket = function(props) {
 FruitBasket.defaultProps = {
   fruit: '',
   filters: [],
-  
+  currentFilter: ''
 }
 
 export default FruitBasket;
