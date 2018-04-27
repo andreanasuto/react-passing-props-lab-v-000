@@ -30,3 +30,7 @@ class FruitBasket extends Component {
 }
 
 export default FruitBasket;
+
+const FruitBasket = function(props) {
+  
+}
