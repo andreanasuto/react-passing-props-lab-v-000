@@ -11,7 +11,7 @@ import FilteredFruitList from './FilteredFruitList.js';
 //      filters: [],
 //      selectedFilter: null
 //    };
-  }
+//  }
 
 //  handleFilterChange = event => {
 //    console.log('new filter: ', event.target.value);
