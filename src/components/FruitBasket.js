@@ -32,5 +32,9 @@ class FruitBasket extends Component {
 export default FruitBasket;
 
 const FruitBasket = function(props) {
-  
+  <div className="fruit-basket">
+    <Filter handleChange={props.handleFilterChange} />
+    <FilteredFruitList
+      filter={props.selectedFilter} />
+  </div>
 }
