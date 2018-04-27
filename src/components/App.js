@@ -8,9 +8,9 @@ class App extends React.Component {
   constructor(props) {
   super(props)
   this.state = {
-    filters: ''
-    fruits: []
-  }
+      filters: ''
+      fruits: []
+    }
   }
 
   componentDidMount() {
