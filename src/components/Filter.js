@@ -31,4 +31,8 @@ class Filter extends Component {
   }
 }
 
+const Filter = function(props) {
+  
+}
+
 export default Filter;
