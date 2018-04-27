@@ -9,8 +9,8 @@ class App extends React.Component {
   super(props)
   this.state = {
       filters: [],
-      fruit: []
-      currentFilter: false
+      fruit: [],
+      currentFilter: null
     }
   }
 
