@@ -26,4 +26,7 @@ class FilteredFruitList extends Component {
   }
 }
 
+const FilteredFruitList = function (props) {
+  
+}
 export default FilteredFruitList;
