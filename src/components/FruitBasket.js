@@ -36,6 +36,7 @@ const FruitBasket = function(props) {
     <FilteredFruitList
       filter={props.selectedFilter} />
   </div>
+  )
 }
 
 export default FruitBasket;
