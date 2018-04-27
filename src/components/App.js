@@ -8,6 +8,12 @@ class App extends React.Component {
   constructor() {
 
   }
+
+  render() {
+    return (
+      <FruitBasket />
+    )
+  }
 }
 
 export default App;
