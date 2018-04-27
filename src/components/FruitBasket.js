@@ -41,7 +41,8 @@ const FruitBasket = function(props) {
 
 FruitBasket.defaultProps = {
   fruit: '',
-  filters: []
+  filters: [],
+  
 }
 
 export default FruitBasket;
