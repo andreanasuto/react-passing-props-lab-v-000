@@ -27,7 +27,7 @@ import FilteredFruitList from './FilteredFruitList.js';
 //      </div>
 //    );
 //  }
-//}
+// }
 
 const FruitBasket = function(props) {
   <div className="fruit-basket">
