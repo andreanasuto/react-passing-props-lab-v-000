@@ -35,4 +35,9 @@ const FilteredFruitList = function (props) {
         )
 }
 
+FilteredFruitList.defaultProps = {
+  fruit: '',
+  filter: ''
+}
+
 export default FilteredFruitList;
