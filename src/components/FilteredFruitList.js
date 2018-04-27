@@ -27,7 +27,7 @@ class FilteredFruitList extends Component {
 }
 
 const FilteredFruitList = function (props) {
-  const list = !props.filter || props.filter === 'all' ? props.items : props.items.filter(i => i.fruit_type === this.props.filter);
+  const list = !props.filter || props.filter === 'all' ? props.items : props.items.filter(i => i.fruit_type === props.filter);
 
 }
 export default FilteredFruitList;
